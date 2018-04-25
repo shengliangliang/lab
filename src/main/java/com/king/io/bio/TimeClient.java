@@ -19,9 +19,16 @@ public class TimeClient {
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(),true);
             out.println("QUERY TIME ORDER");
-            System.out.println("Send order 2 server success.");
+            System.out.println("Send order 1 server success.");
             String resp = in.readLine();
             System.out.println("Now is : "+resp);
+
+            out.println("");
+            System.out.println("Send order 2 server success.");
+            String resp2 = in.readLine();
+            System.out.println("Now is : "+resp2);
+
+
         } catch (IOException e) {
             e.printStackTrace();
         }finally {

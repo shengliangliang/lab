@@ -26,24 +26,17 @@ public class TimeServerHandler implements Runnable {
             in = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
             out = new PrintWriter(this.socket.getOutputStream(),true);
 
-
-
-
-
-
-        String currentTime = null;
-        String body = null;
-        while (true){
-            body = in.readLine();
-            if (body == null){
-                break;
+            String currentTime = null;
+            String body = null;
+            while (true){
+                body = in.readLine();
+                if (body == null){
+                    break;
+                }
+                System.out.println("The time server receive order :"+body);
+                currentTime = "".equals(body)?new Date(System.currentTimeMillis()).toString():"BAD ORDER";
+                out.println(currentTime);
             }
-            System.out.println("The time server receive order :"+body);
-            currentTime = "".equals(body)?new Date(System.currentTimeMillis()).toString():"BAD ORDER";
-            out.println(currentTime);
-
-
-        }
 
         } catch (IOException e) {
             if(in!=null){
