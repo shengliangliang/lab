@@ -2,108 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b72464f4-620e-446c-8902-3b3534dedc57" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/MyTimer$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/MyTimer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test001/Calculator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test001/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test002/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test002/PrimeGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test003/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test003/MyTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test003/MyThread.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test003/MyThreadFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test004/DataSourcesLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test004/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test004/NetworkConnectionsLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test005/CleanerTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test005/Event.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test005/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test005/WriterTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test006/ExceptionHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test006/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test006/Task.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test007/Core.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test007/SafeTask$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test007/SafeTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test007/UnsafeTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test008/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test008/Result.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test008/SearchTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test009/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test009/MyThreadGroup.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test009/Task.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test010/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test010/MyThreadFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test010/Task.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test011/Job.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test011/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test011/PrintQueue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test012/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test012/PricesInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test012/Reader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test012/Writer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test013/Buffer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test013/Consumer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test013/FileMock.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test013/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test013/Producer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test014/Job.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test014/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test014/PrintQueue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test015/Job.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test015/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test015/PrintQueue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test016/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test016/Participant.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test016/Videoconference.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test017/Grouper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test017/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test017/MatrixMock.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test017/Results.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test017/Searcher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test018/FileSearch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test018/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test019/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test019/MyPhaser$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test019/MyPhaser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test020/Consumer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test020/Core.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/test020/Producer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test004/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test004/MyExecutor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test004/SleepTwoSecondsTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test005/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test005/MyRecursiveTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test005/MyWorkerThread.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test005/MyWorkerThreadFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test006/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test006/Product.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test006/ProductListGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test006/Task.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test007/Document.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test007/DocumentMock.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test007/DocumentTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test007/LineTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/high/test007/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/generic/test001/Generic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/generic/test001/itf/FruitGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/generic/test001/itf/FruitGenerator2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/generic/test001/itf/Generator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/generic/test002/Element.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/generic/test002/TimeOutPriorityQueue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/io/bio/TimeClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/io/bio/TimeServer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/king/io/bio/TimeServerHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/king/AppTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/king/concurrent/base/test003/TestMyThreadFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/king/generic/test001/GenericTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/king/generic/test001/itf/FruitGeneratorTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/king/generic/test002/TestElement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/king/generic/test002/TestTimeOutPriorityQueue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/king/concurrent/base/MyTimer.java" afterPath="$PROJECT_DIR$/src/main/java/com/king/concurrent/base/MyTimer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,18 +39,18 @@
       <file leaf-file-name="MultiplexerTimeServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/king/io/nio/MultiplexerTimeServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="75" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+            <state relative-caret-position="252">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="MyTimer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/king/concurrent/base/MyTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -202,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/king/concurrent/base/test008/SearchTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/concurrent/base/test008/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/concurrent/base/test009/MyThreadGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/concurrent/base/test009/Main.java" />
@@ -253,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/king/io/bio/TimeServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/king/io/bio/TimeClient.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/king/concurrent/base/MyTimer.java" />
       </list>
     </option>
   </component>
@@ -328,6 +228,51 @@
             <path>
               <item name="lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -649,7 +594,7 @@
       <workItem from="1524531077536" duration="27345000" />
       <workItem from="1524575395441" duration="6414000" />
       <workItem from="1524617315386" duration="1089000" />
-      <workItem from="1524618511223" duration="2112000" />
+      <workItem from="1524618511223" duration="2472000" />
     </task>
     <servers />
   </component>
@@ -686,7 +631,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73157000" />
+    <option name="totallyTimeSpent" value="73517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,13 +693,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/concurrent/base/test010/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/king/concurrent/base/test010/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1108,14 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/io/nio/MultiplexerTimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="75" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1131,6 +1061,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/io/nio/MultiplexerTimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/king/concurrent/base/MyTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding />
         </state>
       </provider>
