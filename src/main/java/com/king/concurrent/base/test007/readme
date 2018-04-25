@@ -1,0 +1,137 @@
+使用本地线程变量
+并发应用的一个关键地方就是共享数据。这个对那些扩展Thread类或者实现Runnable接口的对象特别重要。
+
+如果你创建一个类对象，实现Runnable接口，然后多个Thread对象使用同样的Runnable对象，全部的线程都共享同样的属性。这意味着，如果你在一个线程里改变一个属性，全部的线程都会受到这个改变的影响。
+
+有时，你希望程序里的各个线程的属性不会被共享。 Java 并发 API提供了一个很清楚的机制叫本地线程变量。
+
+在这个指南中, 我们将开发一个程序，这个程序用来描述在第一段话里的问题，和另一个程序使用本地线程变量机制解决这个问题。
+
+准备
+
+指南中的例子是使用Eclipse IDE 来实现的。如果你使用Eclipse 或者其他的IDE，例如NetBeans, 打开并创建一个新的java项目。
+
+怎么做呢…
+
+按照这些步骤来实现下面的例子：
+
+1.   首先，我们来实现一个程序含有上述的问题。
+
+创建一个类名为 UnsafeTask 并实现 Runnable 接口。 声明一个 private java.util.Date 属性.
+
+1
+public class UnsafeTask implements Runnable{
+2
+private Date startDate;
+2. 实现UnsafeTask 对象的run() 方法，此方法会初始 startDate 属性, 把值写入控制台，随机休眠一段时间，最后在写入startDate 属性。
+
+01
+@Override
+02
+public void run() {
+03
+startDate=new Date();
+04
+System.out.printf("Starting Thread: %s : %s\n",Thread. currentThread().getId(),startDate);
+05
+try {
+06
+TimeUnit.SECONDS.sleep( (int)Math.rint(Math.random()*10));
+07
+} catch (InterruptedException e) {
+08
+e.printStackTrace();
+09
+}
+10
+System.out.printf("Thread Finished: %s : %s\n",Thread. currentThread().getId(),startDate);
+11
+}
+3.   现在，来实现这个有问题例子的主类。创建一个 Main  类和 main() 方法. 此方法会创建一个 UnsafeTask 类的对象，并开始3个线程使用这个对象，每个线程间休眠2秒。
+
+01
+public class Core {
+02
+public static void main(String[] args) {
+03
+UnsafeTask task=new UnsafeTask();
+04
+ for (int i=0; i<10; i++){
+05
+Thread thread=new Thread(task);
+06
+thread.start();
+07
+try { TimeUnit.SECONDS.sleep(2);
+08
+} catch (InterruptedException e) {
+09
+e.printStackTrace();
+10
+}
+11
+}
+12
+}
+13
+}
+4.   在以下的裁图，你可以发现这个程序的执行结果。每个线程有着不同的开始时间，但是全部都有相同的结束时间。
+
+
+5.   如在之前提到的, 我们会使用本地线程变量机制来解决这个问题。
+
+6.   创建一个类名为 SafeTask a一定实现 Runnable 接口。
+
+1
+public class SafeTask implements Runnable {
+7.   声明 ThreadLocal<Date> 类对象。此对象有隐含实现了 initialValue()方法. 此方法会返回真实日期。
+
+1
+private static ThreadLocal<Date> startDate= new ThreadLocal<Date>() {
+2
+protected Date initialValue(){
+3
+return new Date();
+4
+}
+5
+};
+8.   实现run()方法。它和 UnsafeClass的run() 方法功能一样，只是改变了属性的访问方式。
+
+01
+@Override
+02
+public void run() {
+03
+  System.out.printf("Starting Thread: %s : %s\n",Thread.currentThread().getId(),startDate.get());
+04
+try {
+05
+  TimeUnit.SECONDS.sleep((int)Math.rint(Math.random()*10));
+06
+} catch (InterruptedException e) {
+07
+e.printStackTrace();
+08
+}
+09
+System.out.printf("Thread Finished: %s : %s\n",Thread.currentThread().getId(),startDate.get());
+10
+}
+9.    这个例子的主类跟不安全例子一样，把名字改成 Runnable 类。
+
+10. 运行例子并分析不同处。
+
+它是怎么工作的…
+
+在下面的截图里，你可以看到线程安全模式下程序运行的结果。现在3个 Thread 对象都有他们自己的startDate 属性值。看下图：
+
+
+
+本地线程变量为每个使用这些变量的线程储存属性值。可以用 get() 方法读取值和使用 set() 方法改变值。 如果第一次你访问本地线程变量的值，如果没有值给当前的线程对象，那么本地线程变量会调用 initialValue() 方法来设置值给线程并返回初始值。
+
+更多…
+
+本地线程类还提供 remove() 方法，删除存储在线程本地变量里的值。
+
+Java 并发 API 包括 InheritableThreadLocal 类提供线程创建线程的值的遗传性 。如果线程A有一个本地线程变量，然后它创建了另一个线程B，那么线程B将有与A相同的本地线程变量值。 你可以覆盖 childValue() 方法来初始子线程的本地线程变量的值。 它接收父线程的本地线程变量作为参数。
