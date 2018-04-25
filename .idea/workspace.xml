@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/king/io/nio/MultiplexerTimeServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <file leaf-file-name="MyTimer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/king/concurrent/base/MyTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="198">
+              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -326,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeClient (1)">
+  <component name="RunManager" selected="Application.MyTimer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -341,25 +341,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.king.concurrent.base.test015.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lab" />
-      <envs />
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.king.concurrent.base.test017.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.king.concurrent.base.test017.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -398,6 +379,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.king.concurrent.test006.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lab" />
+      <envs />
+    </configuration>
+    <configuration name="MyTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.king.concurrent.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.king.concurrent.base.MyTimer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -560,19 +560,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TimeServer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TimeClient" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TimeServer (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TimeClient (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TimeServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TimeClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TimeServer (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TimeClient (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyTimer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TimeClient (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TimeServer (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TimeClient" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TimeServer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MyTimer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TimeClient (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TimeServer (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TimeClient" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TimeServer" />
       </list>
     </recent_temporary>
   </component>
@@ -594,7 +594,7 @@
       <workItem from="1524531077536" duration="27345000" />
       <workItem from="1524575395441" duration="6414000" />
       <workItem from="1524617315386" duration="1089000" />
-      <workItem from="1524618511223" duration="2472000" />
+      <workItem from="1524618511223" duration="2545000" />
     </task>
     <servers />
   </component>
@@ -631,7 +631,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73517000" />
+    <option name="totallyTimeSpent" value="73590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,15 +1068,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/king/io/nio/MultiplexerTimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/king/concurrent/base/MyTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="198">
+          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
           <folding />
         </state>
       </provider>

@@ -13,7 +13,7 @@ public class MyTimer {
         TimerTask tt = new TimerTask() {
             @Override
             public void run() {
-                System.out.println("我只是打印一句话...而已");
+                System.out.println("我只是打印一句话...而已，好吧，配合测试git");
             }
         };
         timer.schedule(tt,0,1000);
