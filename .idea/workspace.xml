@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b72464f4-620e-446c-8902-3b3534dedc57" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/king/App.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/MyTimer$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/king/concurrent/base/MyTimer.class" afterPath="" />
@@ -712,7 +710,7 @@
       <workItem from="1524531077536" duration="27345000" />
       <workItem from="1524575395441" duration="6414000" />
       <workItem from="1524617315386" duration="1089000" />
-      <workItem from="1524618511223" duration="305000" />
+      <workItem from="1524618511223" duration="384000" />
     </task>
     <servers />
   </component>
@@ -749,7 +747,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71350000" />
+    <option name="totallyTimeSpent" value="71429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
