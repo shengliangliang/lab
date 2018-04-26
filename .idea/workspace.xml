@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b72464f4-620e-446c-8902-3b3534dedc57" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/io/aio/AcceptCompletionHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/io/aio/AsyncTimeServerHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/io/aio/ReadCompletionHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/io/aio/TimeServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/io/aio/client/AsyncTimeClientHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/io/aio/client/TimeClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/king/io/netty/timeserver/DiscardServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lab.iml" afterPath="$PROJECT_DIR$/lab.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="b72464f4-620e-446c-8902-3b3534dedc57" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,7 +158,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="467" />
     <option name="y" value="209" />
     <option name="width" value="1932" />
@@ -487,7 +475,7 @@
       <workItem from="1524618511223" duration="3262000" />
       <workItem from="1524625107655" duration="1886000" />
       <workItem from="1524637671868" duration="2590000" />
-      <workItem from="1524703662803" duration="8967000" />
+      <workItem from="1524703662803" duration="9255000" />
     </task>
     <servers />
   </component>
@@ -524,7 +512,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87750000" />
+    <option name="totallyTimeSpent" value="88038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,7 +524,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
