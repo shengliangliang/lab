@@ -34,3 +34,14 @@ git push -u origin master
 
 …or import code from another repository  
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.  
+
+查看远程仓库
+git remote -v  
+
+删除远程仓库关联  
+git remote remove origin 
+
+从本地修改远程仓库名称
+git remote rename pb paul  
+本地的远程仓库关联也会修改  
+
