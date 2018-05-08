@@ -45,8 +45,8 @@ git remote remove origin
 git remote rename pb paul  
 本地的远程仓库关联也会修改  
 
-删除本地分支
-git branch -d 分支名称  
-删除远程分支
-git push origin --delete 分支名称
+删除本地分支  
+git branch -d 分支名称   
+删除远程分支  
+git push origin --delete 分支名称  
 
