@@ -1,5 +1,6 @@
-package com.king.generic.test001;
+package king.generic.test001;
 
+import com.king.generic.test001.Generic;
 import org.junit.Test;
 
 public class GenericTest {

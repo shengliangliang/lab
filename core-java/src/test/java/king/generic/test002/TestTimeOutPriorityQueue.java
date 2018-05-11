@@ -1,5 +1,7 @@
-package com.king.generic.test002;
+package king.generic.test002;
 
+import com.king.generic.test002.Element;
+import com.king.generic.test002.TimeOutPriorityQueue;
 import org.junit.Test;
 import java.lang.reflect.InvocationTargetException;
 

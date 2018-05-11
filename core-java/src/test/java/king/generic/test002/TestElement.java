@@ -1,5 +1,6 @@
-package com.king.generic.test002;
+package king.generic.test002;
 
+import com.king.generic.test002.Element;
 import org.junit.Test;
 
 public class TestElement {

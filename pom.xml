@@ -7,7 +7,10 @@
   <groupId>com.king</groupId>
   <artifactId>lab</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <modules>
+    <module>core-java</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>lab</name>
   <!-- FIXME change it to the project's website -->

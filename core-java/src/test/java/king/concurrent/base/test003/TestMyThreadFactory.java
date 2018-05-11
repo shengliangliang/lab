@@ -1,5 +1,7 @@
-package com.king.concurrent.base.test003;
+package king.concurrent.base.test003;
 
+import com.king.concurrent.base.test003.MyTask;
+import com.king.concurrent.base.test003.MyThreadFactory;
 import org.junit.Test;
 
 public class TestMyThreadFactory {
