@@ -1,4 +1,4 @@
-package com.king.generic.test001.itf;
+package king.generic.test001.itf;
 
 import org.junit.Test;
 
