@@ -1,4 +1,4 @@
-package com.king.netty.unpack.client;
+package com.king.netty.linebasedframedecoder.client;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -34,10 +34,13 @@ public class TimeClientHandler extends ChannelHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx,Object msg) throws UnsupportedEncodingException {
-        ByteBuf buf = (ByteBuf) msg;
+        /*ByteBuf buf = (ByteBuf) msg;
         byte[] req = new byte[buf.readableBytes()];
         buf.readBytes(req);
         String body = new String(req,"UTF-8");
+        System.out.println("Now is :"+body+";the counter is:" + ++counter);*/
+
+        String body = (String)msg;
         System.out.println("Now is :"+body+";the counter is:" + ++counter);
 
     }
