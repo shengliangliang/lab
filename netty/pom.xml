@@ -39,15 +39,17 @@
         <dependency>
             <groupId>org.msgpack</groupId>
             <artifactId>msgpack</artifactId>
-            <version>0.6.12</version>
+            <version>0.6.6</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
+
+        <!-- https://mvnrepository.com/artifact/javassist/javassist -->
         <dependency>
-            <groupId>org.javassist</groupId>
+            <groupId>javassist</groupId>
             <artifactId>javassist</artifactId>
-            <version>3.21.0-GA</version>
+            <version>3.9.0.GA</version>
         </dependency>
+
 
     </dependencies>
 
