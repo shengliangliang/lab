@@ -12,14 +12,7 @@ public class EchoServerHandler extends ChannelHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx,Object msg){
-
-        System.out.println("This is "+ ++counter +" times receive client:");
-
-        String body = (String)msg;
-        System.out.println("This is "+ ++counter +" times receive client:["+body+"]");
-
-        ByteBuf echo = Unpooled.copiedBuffer(body.getBytes());
-        ctx.writeAndFlush(echo);
+        ctx.write(msg);
     }
 
     @Override
@@ -27,5 +20,10 @@ public class EchoServerHandler extends ChannelHandlerAdapter {
 
         cause.printStackTrace();
         ctx.close();
+    }
+
+    @Override
+    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        ctx.flush();
     }
 }
