@@ -23,44 +23,7 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
 
-
-
-    <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-all</artifactId>
-      <version>4.1.24.Final</version>
-
-    </dependency>
-      <!-- https://mvnrepository.com/artifact/com.sun.tools.btrace/btrace-agent -->
-      <!--<dependency>
-          <groupId>com.sun.tools.btrace</groupId>
-          <artifactId>btrace-agent</artifactId>
-          <version>1.2.3</version>
-      </dependency>
-      &lt;!&ndash; https://mvnrepository.com/artifact/com.sun.tools.btrace/btrace-client &ndash;&gt;
-      <dependency>
-          <groupId>com.sun.tools.btrace</groupId>
-          <artifactId>btrace-client</artifactId>
-          <version>1.2.3</version>
-      </dependency>
-      &lt;!&ndash; https://mvnrepository.com/artifact/com.sun.tools.btrace/btrace-boot &ndash;&gt;
-      <dependency>
-          <groupId>com.sun.tools.btrace</groupId>
-          <artifactId>btrace-boot</artifactId>
-          <version>1.2.3</version>
-      </dependency>-->
-
-
-  </dependencies>
 
   <build>
     <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
