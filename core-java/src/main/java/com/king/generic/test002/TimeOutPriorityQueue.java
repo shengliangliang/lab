@@ -15,7 +15,7 @@ public class TimeOutPriorityQueue<T> {
             this.expireTime = expireTime;
     }
 
-    TimeOutPriorityQueue(){
+    public TimeOutPriorityQueue(){
 
     }
 
