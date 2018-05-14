@@ -3,7 +3,7 @@ package com.king.netty.serializable.size;
 import java.io.Serializable;
 import java.nio.ByteBuffer;
 
-public class UserInfo implements Serializable {
+public class UserInfo implements Serializable{
 
     private static final long serialVersionUID = 1L;
 
