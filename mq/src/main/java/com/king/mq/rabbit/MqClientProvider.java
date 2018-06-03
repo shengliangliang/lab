@@ -1,5 +1,6 @@
 package com.king.mq.rabbit;
 
+import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -16,7 +17,7 @@ public class MqClientProvider {
         factory.setUsername("win10");
         factory.setPassword("123456");
         factory.setVirtualHost("win10");
-        factory.setHost("192.168.0.103");
+        factory.setHost("192.168.56.1");
         factory.setPort(5672);
         //factory.setUri("amqp://userName:password@hostName:portNumber/virtualHost");
 
@@ -26,13 +27,23 @@ public class MqClientProvider {
             conn = factory.newConnection();
             channel = conn.createChannel();
 
-            String exchangeName = "exchangeName";
-            String routingKey = "routingKey";
-
+            String exchangeName = "user.exchange.direct";
+            String routingKey = "routing.key.user";
+            String queueName = "user.queue";
 
             channel.exchangeDeclare(exchangeName, "direct", true);
-            //String queueName = channel.queueDeclare().getQueue();
-            channel.queueBind("queueName", exchangeName, routingKey);
+
+            String existQueueName = ""; //channel.exchangeDeclare("dd");
+            if(existQueueName!=null&&"user.queue".equals(existQueueName)){
+                channel.queueBind(existQueueName, exchangeName, routingKey);
+            }else{
+
+                channel.queueDeclare(queueName, true, false, false, null);
+                channel.queueBind(queueName,exchangeName, routingKey);
+            }
+
+           /* AMQP.Queue.DeclareOk declareOk = channel.queueDeclare(queueName,true,);*/
+
 
 
             byte[] messageBodyBytes = "Hello, world!".getBytes();
