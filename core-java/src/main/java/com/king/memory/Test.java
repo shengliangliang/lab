@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+
+///-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
 public class Test {
 
     static TestList testList2 = new TestList();
@@ -14,11 +16,11 @@ public class Test {
 
         Integer i = 0;
         while (true){
-            try {
+            /*try {
                 TimeUnit.MILLISECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            }*/
             i++;
             if(i<10000){
                 if(i%2==1){
@@ -29,12 +31,35 @@ public class Test {
             }
             System.out.println("+++++++++++++++++===="+i);
 
-            list3.add(new OOMClass());
+            list3.add(new OOMClass("zhangshan"+i,i));
         }
     }
 
 
-    static class OOMClass{}
+    static class OOMClass{
+        private String name;
+        private Integer age;
+        OOMClass(String name,Integer age){
+            this.name = name;
+            this.age = age;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public Integer getAge() {
+            return age;
+        }
+
+        public void setAge(Integer age) {
+            this.age = age;
+        }
+    }
 }
 
 class TestList{
