@@ -11,6 +11,7 @@
     <module>core-java</module>
       <module>netty</module>
       <module>mq</module>
+      <module>mq</module>
   </modules>
   <packaging>pom</packaging>
 
