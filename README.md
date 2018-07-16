@@ -28,6 +28,10 @@ git commit -m "first commit"
 git remote add origin git@github.com:shengliangliang/boot.git  
 git push -u origin master  
 
+... fatal: Authentication failed for...(不弹出用户名密码错误)
+git config --system --unset credential.helper
+
+
 …or push an existing repository from the command line  
 git remote add origin git@github.com:shengliangliang/boot.git  
 git push -u origin master  
