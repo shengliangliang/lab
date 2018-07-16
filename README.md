@@ -29,7 +29,7 @@ git remote add origin git@github.com:shengliangliang/boot.git
 git push -u origin master  
 
 ... fatal: Authentication failed for...(不弹出用户名密码错误)
-git config --system --unset credential.helper
+git config --system --unset credential.helper   （每次提交都需要用户名密码）
 
 
 …or push an existing repository from the command line  
