@@ -11,14 +11,19 @@ public class App
     public static void main( String[] args )
     {
         App app = new App();
-        while(true){
+
+
+        int a = 87;
+        System.out.println(a - (a >> 3 << 3));
+        System.out.println(a);
+        /*while(true){
             try {
                 TimeUnit.MILLISECONDS.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             app.sayHello("rebot",18);
-        }
+        }*/
     }
 
     public String sayHello(String name, int age) {

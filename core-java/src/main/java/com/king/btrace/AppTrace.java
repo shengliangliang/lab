@@ -1,6 +1,6 @@
 package com.king.btrace;
 
-
+/*
 import com.sun.btrace.annotations.*;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -23,7 +23,7 @@ public class AppTrace {
         println("count:"+count.get());
     }
 
-}
+}*/
 
 
 /**

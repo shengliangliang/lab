@@ -12,6 +12,7 @@
       <module>netty</module>
       <module>mq</module>
       <module>mq</module>
+      <module>spi</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -1,5 +1,9 @@
 package com.king.concurrent.base;
 
+import com.king.concurrent.base.test019.MyPhaser;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -9,24 +13,59 @@ public class MyTimer {
 
 
     public static void main(String[] args){
-        Timer timer = new Timer();
-        TimerTask tt = new TimerTask() {
-            @Override
-            public void run() {
-                System.out.println("我只是打印一句话...而已，好吧，配合测试git");
-            }
-        };
-        timer.schedule(tt,0,1000);
+        Map<Integer,Student> map = new HashMap<Integer,Student>();
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        Student s1 = new Student();
+        s1.setName("JACKY");
+        s1.setAge(18);
+        Student s2 = new Student();
+        s2.setName("Micrale");
+        s2.setAge(19);
+        map.put(1,s1);
+        map.put(2,s2);
+
+        for(Map.Entry<Integer,Student> entry:map.entrySet()){
+            Student student = entry.getValue();
+            System.out.println(student.getAge()+":"+student.getName());
         }
-        tt.cancel();
+        for(Map.Entry<Integer,Student> entry:map.entrySet()){
+            Student student = entry.getValue();
+            student.setAge(entry.getKey());
+        }
+
+        System.out.println("--------------");
+        for(Map.Entry<Integer,Student> entry:map.entrySet()){
+            Student student = entry.getValue();
+            System.out.println(student.getAge()+":"+student.getName());
+        }
+
 
     }
 
+
+
+
+}
+
+class Student{
+    private String name;
+    private int age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
 
 
