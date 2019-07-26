@@ -1,4 +1,4 @@
-package com.king.newFeatures.time;
+package com.king.newfeatures.time;
 
 import java.time.*;
 

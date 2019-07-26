@@ -1,4 +1,4 @@
-package com.king.newFeatures.base64;
+package com.king.newfeatures.base64;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Base64;
