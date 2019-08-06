@@ -15,6 +15,8 @@ public class TestOptional {
     public static void main(String args[]){
 
         TestOptional testOptional = new TestOptional();
+
+
         Integer value1 = null;
         Integer value2 = new Integer(10);
 
@@ -23,8 +25,9 @@ public class TestOptional {
 
         // Optional.of - 如果传递的参数是 null，抛出异常 NullPointerException
         Optional<Integer> b = Optional.of(value2);
-        System.out.println(a+"-"+b);
-        System.out.println(testOptional.sum(a,b));
+        testOptional.sum(a,b);
+        //System.out.println(a+"-"+b);
+        //System.out.println(testOptional.sum(a,b));
     }
 
     public Integer sum(Optional<Integer> a, Optional<Integer> b){
@@ -40,6 +43,7 @@ public class TestOptional {
 
         //Optional.get - 获取值，值需要存在
         Integer value2 = b.get();
+        System.out.println(value2);
         return value1 + value2;
     }
 }
