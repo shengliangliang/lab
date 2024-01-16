@@ -1,6 +1,19 @@
 package com.king.collection.list;
 
+import java.util.Vector;
+
 public class TestVector {
+
+    static Vector<String> vector = new Vector<>();
+
+
+    public static void main(String[] args) {
+        vector.add("a");
+        vector.add("b");
+
+        System.out.println(vector.get(0));
+        System.out.println(vector.get(1));
+    }
 }
 
 

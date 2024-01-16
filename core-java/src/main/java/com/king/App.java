@@ -1,34 +1,32 @@
 package com.king;
 
-import java.util.concurrent.TimeUnit;
+import jdk.nashorn.internal.ir.Block;
+
+import java.util.*;
+import java.util.concurrent.*;
 
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        App app = new App();
+public class App {
+    public static void main(String[] args) {
 
+        Map<String,String> map = new HashMap<>();
 
-        int a = 87;
-        System.out.println(a - (a >> 3 << 3));
-        System.out.println(a);
-        /*while(true){
-            try {
-                TimeUnit.MILLISECONDS.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            app.sayHello("rebot",18);
-        }*/
+        map.put(null,"val1");
+        map.put(null,"val2");
+
+        //StringBuffer sb = new StringBuffer("");
+
+        /*Executors.newFixedThreadPool();
+        List list = new CopyOnWriteArrayList();
+        BlockingDeque blockingDeque = new ArrayBlockingQueue<>()
+
+        List<String> list = new ArrayList<>();*/
+        for (Map.Entry<String,String> entry:map.entrySet()){
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
+        }
     }
-
-    public String sayHello(String name, int age) {
-        System.out.println("I am alive");
-        return "hello everyone";
-    }
-
 }

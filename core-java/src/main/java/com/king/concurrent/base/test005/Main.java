@@ -13,6 +13,8 @@ public class Main {
             thread.start();
         }
 
+        //Thread.currentThread().
+
         CleanerTask cleaner = new CleanerTask(deque);
         cleaner.start();
 
