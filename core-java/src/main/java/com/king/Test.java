@@ -2,6 +2,7 @@ package com.king;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -37,6 +38,10 @@ public class Test {
         String date = "2019-04-29 14:35:07";
         Date date1 = null;
         Date date2 = new Date();
+        int[] a = new int[]{1,2,5,5,6,7,8};
+        int max = Integer.MIN_VALUE;
+
+        Integer[] k = new Integer[]{1,2,5,5,6,7,8};
         try {
             date1 = simpleDateFormat.parse(date);
         } catch (ParseException e) {
