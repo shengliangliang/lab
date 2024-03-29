@@ -22,10 +22,10 @@
     </properties>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-        </dependency>
+        </dependency>-->
         <!-- Logger Impl -->
         <!-- <dependency>
             <groupId>org.slf4j</groupId>

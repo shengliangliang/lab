@@ -53,7 +53,7 @@ public class BinarySearch {
     }
     public static void main(String[] args) {
         System.out.println("binSearch:"+search(new int[]{1,2,3,3,3,3,4,5},3));
-        System.out.println("left:"+searchLeft(new int[]{1,2,3,3,3,3,4,5},3));
+        System.out.println("left:"+searchLeft(new int[]{-1,0,1,2,3,3,3,3,3,3,3,3,3,4,5},3));
         System.out.println("right:"+searchRight(new int[]{1,2,3,3,3,3,4,5},3));
     }
 }

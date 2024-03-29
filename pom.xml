@@ -13,41 +13,12 @@
       <module>mq</module>
       <module>mq</module>
       <module>spi</module>
-    <module>test-jdk17</module>
+      <module>test-jdk17</module>
       <module>algorithm</module>
   </modules>
   <packaging>pom</packaging>
 
   <name>lab</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
 
-  <dependencies>
-    <!-- https://mvnrepository.com/artifact/cglib/cglib -->
-    <dependency>
-      <groupId>cglib</groupId>
-      <artifactId>cglib</artifactId>
-      <version>3.2.11</version>
-    </dependency>
-  </dependencies>
-  <build>
-    <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-      <plugins>
-          <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <configuration>
-                  <source>8</source>
-                  <target>8</target>
-              </configuration>
-          </plugin>
-      </plugins>
-
-  </build>
 </project>
